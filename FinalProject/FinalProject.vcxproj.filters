@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d948787b-7ff9-475f-aa55-38293aa1dd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5b9a7cc3-739f-4e3f-bb8d-d927c0d65acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{e4221b76-6c33-42fb-8167-d0fbfad439ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Headers">
+      <UniqueIdentifier>{ad9a6a3c-6aa3-427d-83f9-63c9fb1c17f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{2c7524a0-57c9-4add-85f6-c048e094371a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Source">
+      <UniqueIdentifier>{1e222b71-ec6b-450b-b5dd-5bf84ba7a602}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glut32.dll" />
+    <None Include="glew32.dll" />
+    <None Include="shaders\phong.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\phong.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="resources\xyzrgb_dragon.ply">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\happy.ply">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\tri.ply">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\bun_zipper.ply">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="shaders\blur.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\blur.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\ssao.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\ssao.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\vec3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaders.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat4.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="rply\rply.c">
+      <Filter>Library Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\shaders.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vec3.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\GL\glew.h">
+      <Filter>Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\GL\glui.h">
+      <Filter>Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\GL\glut.h">
+      <Filter>Library Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mat4.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\rply.h">
+      <Filter>Library Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
